@@ -18,6 +18,11 @@
   flex: 1 1 0%;
 }
 
+.articleMain {
+  display: flex;
+  flex: 1 1 100%;
+}
+
 .card {
   display: flex;
   align-items: center;
