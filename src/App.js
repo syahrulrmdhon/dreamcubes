@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import laptop from './laptop.png';
+import phone from './phone.png';
 import './App.css';
 
 class App extends Component {
@@ -17,6 +18,16 @@ class App extends Component {
                 <p>Step 1</p>
                 <h3>Lorem ipsum dolor sit amet, persecuti dissentiet cum cu. </h3>
               </div>
+            </div>
+          </article>
+          <article className="articleShort">
+            <div className="card">
+              <div className="card-image">
+                  <img src={phone} alt="alt here"/>
+              </div>
+              <div className="card-content">
+                <p>Step 2</p>
+                <h3>Lorem ipsum dolor sit amet, persecuti dissentiet cum cu. </h3></div>
             </div>
           </article>
           </div>
