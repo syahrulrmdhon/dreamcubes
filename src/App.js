@@ -53,6 +53,7 @@ class App extends Component {
             </div>
           </article>
           </div>
+          <iframe title="a" width="100%" height="300" src="//jsfiddle.net/vxqaco1p/4/embedded/js,result/" allowFullScreen="allowfullscreen"  frameBorder="0"></iframe>
         </div>
     );
   }
