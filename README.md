@@ -1,9 +1,9 @@
-#Answers
+# Answers
 
 for Slicing Test (html, css, js) and Javascript Coding Test
 go to https://syahrulrmdhon.github.io/dreamcubes
 
-#What does a Doctype do?
+# What does a Doctype do?
 
 Doctype declaration tells the browser what kind of document to expect: HTML5, HTML4.0x, XHTML1.0 (Strict, Transitional or Frameset), XHTML1.1, and others.
 
@@ -40,3 +40,21 @@ If you don’t declare the doctype, browsers can interpret the document as somet
 There can be a lot of quirks in the quirks mode; it can pretty much mess up how your document appears on the screen.
 
 Quirks mode, almost standard mode, and the full standard mode is something I am going to look into next time.
+
+#What are data- attributes good for?
+
+an attribute is anything in html that can modify, or provide more information for, an element. So, href, alt, class, id, etc are all attributes. data-* is also an attribute, but the cool thing is that you aren't boxed in by what is already available, and where the * is you can add (kindof) whatever you might want.
+
+Before data-, people would just add their own attributes, which is not-so-standard. Data attributes provided a standardized way to extend the information that can be associated with a particular element.
+
+They are written like:
+
+```
+<p data-category="fancy" data-is-cool="true">Fancy words</p>
+```
+
+# Describe the difference between a cookie, sessionStorage and localStorage
+
+Cookies are small files which are stored on a user's computer. They are designed to hold a modest amount of data specific to a particular client and website, and can be accessed either by the web server or the client computer. This allows the server to deliver a page tailored to a particular user, or the page itself can contain some script which is aware of the data in the cookie and so is able to carry information from one visit to the website (or related site) to the next.
+
+localStorage and sessionStorage are relatively new APIs (meaning, not all legacy browsers will support them) and are near identical (both in APIs and capabilities) with the sole exception of persistence. sessionStorage (as the name suggests) is only available for the duration of the browser session (and is deleted when the tab or window is closed) - it does, however, survive page reloads 
